@@ -19,6 +19,13 @@ header{
 
 
 
+
+
+
+ 
+
+
+
 /*-------------------------------------------------- NAV ----------------------------------------------------------*/
 
 
@@ -105,7 +112,7 @@ nav #menu_principal{
 
 
 
-.section1{
+.regua{
     background-image: url(../img/divider-dark.png);
     width: 100%;
     height: 500px;
@@ -148,39 +155,65 @@ nav #menu_principal{
     margin-top: 40px;
 }
 
-.tab h5{
-    color: #e7a520;
-    font-size: 24px;
-    font-weight: 300;
-    font-family: Montserrat,sans-serif;
+.trabalhos{   /*section trabalhos*/
+    height: 200px;
+    width: 100%;
+}
+
+.cbclh{       /*section do cabeçalho (cbclh)*/
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
     text-align: center;
-    margin: 0;
+}
+
+.trabalhos .cbclh h4 span{
+    color:#e7a920;
+    text-transform:uppercase; /*letra maiuscula*/
+    letter-spacing: 11px; /*espacamento*/
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic; /*estilo da fonte*/
+}
+
+.trabalhos .cbclh h4 b{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.trabalhos .cbclh p{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.trabalhos .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.trabalhos .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/imagemheliponto.jpg);
+    background-size: contain; /*ficar do tamanho do elemento*/
+    background-position: center;
+}
+
+.trabalhos .mosaico .item:hover{
+ background-size: 110%;
+ background-position: center; 
+ transition: 10s ease-in-out;
  
 }
 
-.tab h1{
-    font-size: 85px;
-    font-weight: 700;
-    font-family: Montserrat,sans-serif;
-    text-align: center;
-    margin: 0;
-    
-}
 
-.tab h6{
-    color: gray;
-    font-size: 20px;
-    font-family: Montserrat,sans-serif;
-    text-align: center;
-    margin: 0;
-    margin-top: 10px;
-    
-}
 
-.tab img{
-    margin: 0;
-    margin-left: 900px;
-}
 
 /*
 section #esq img{
